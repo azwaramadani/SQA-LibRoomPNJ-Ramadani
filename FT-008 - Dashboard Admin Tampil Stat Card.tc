@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FT-008 - Dashboard Admin Tampil Stat Card</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4034a3c7-0beb-4f7d-8f3e-95580658cd8d</testCaseGuid>
+</TestCaseEntity>

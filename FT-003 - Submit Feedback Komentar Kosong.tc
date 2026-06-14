@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FT-003 - Submit Feedback Komentar Kosong</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>647f6b80-eaf9-4659-b367-3d83b70b11e1</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FT-010 - Data Pinjam Admin Only</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f6e199f2-7e21-4448-96a5-5a3fede82973</testCaseGuid>
+</TestCaseEntity>

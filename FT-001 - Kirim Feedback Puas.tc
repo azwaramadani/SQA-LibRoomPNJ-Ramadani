@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FT-001 - Kirim Feedback Puas</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0c3325e4-ca54-4d6b-8791-7221674fd2fa</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FT-002 - Kirim Feedback Tidak Puas</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>06f1c6a2-6ddc-47b2-92a1-52c81b7f5908</testCaseGuid>
+</TestCaseEntity>
