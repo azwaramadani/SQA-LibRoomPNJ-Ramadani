@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-Functional-Testing" time="67.196" tests="5" failures="2" errors="0">
+   <testsuite name="TS-Functional-Testing" tests="5" failures="2" errors="0" time="67.196" skipped="0" timestamp="2026-06-14T06:15:28.392Z" hostname="Fajar - LAPTOP-L5EA407O" id="Test Suites/TS-Functional-Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Fajar\\Katalon Studio\\SQA_LibRoomPNJ_Ramadani_Azwar\\Reports\\20260614_131510\\TS-Functional-Testing\\20260614_131510"/>
+         <property name="logFiles" value="C:\\Users\\Fajar\\Katalon Studio\\SQA_LibRoomPNJ_Ramadani_Azwar\\Reports\\20260614_131510\\TS-Functional-Testing\\20260614_131510\\console0.log, C:\\Users\\Fajar\\Katalon Studio\\SQA_LibRoomPNJ_Ramadani_Azwar\\Reports\\20260614_131510\\TS-Functional-Testing\\20260614_131510\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Fajar\\Katalon Studio\\SQA_LibRoomPNJ_Ramadani_Azwar\\Reports\\20260614_131510\\TS-Functional-Testing\\20260614_131510\\1781417753124.png, C:\\Users\\Fajar\\Katalon Studio\\SQA_LibRoomPNJ_Ramadani_Azwar\\Reports\\20260614_131510\\TS-Functional-Testing\\20260614_131510\\1781417772062.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="Fajar - LAPTOP-L5EA407O"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.0.1.0"/>
+         <property name="browser" value="Chrome 149.0.7827.103"/>
+         <property name="userFullName" value="RAMADANI AZWAR Mahasiswa PNJ"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="ab269b6f8cf0cca88e42b3040f228d10"/>
+         <property name="projectName" value="SQA_LibRoomPNJ_Ramadani_Azwar"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/FT-001 - Kirim Feedback Puas" time="24.792" classname="Test Cases/FT-001 - Kirim Feedback Puas" status="FAILED">
+         <failure type="FAILED" message="Test Cases/FT-001 - Kirim Feedback Puas FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_LibRoomPNJ/a_Riwayat'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)&#xa;	at FT-001 - Kirim Feedback Puas.run(FT-001 - Kirim Feedback Puas:36)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at S0.run(S0.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_LibRoomPNJ/a_Riwayat' located by 'By.xpath: //*[@href = '?route=User/riwayat']' not found&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:111)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 19 more&#xa;"/>
+         <system-out><![CDATA[14-06-2026T13:15:28 - [TEST_CASE][FAILED] - Test Cases/FT-001 - Kirim Feedback Puas: Test Cases/FT-001 - Kirim Feedback Puas FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_LibRoomPNJ/a_Riwayat'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at FT-001 - Kirim Feedback Puas.run(FT-001 - Kirim Feedback Puas:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_LibRoomPNJ/a_Riwayat' located by 'By.xpath: //*[@href = '?route=User/riwayat']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:111)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+
+
+14-06-2026T13:15:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-06-2026T13:15:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2026T13:15:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2026T13:15:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-06-2026T13:15:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-06-2026T13:15:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-06-2026T13:15:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2026T13:15:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2026T13:15:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-06-2026T13:15:37 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/pblperpustakaan/"): Navigate to 'http://localhost/pblperpustakaan/' successfully
+
+14-06-2026T13:15:38 - [MESSAGE][PASSED] - Navigate to 'http://localhost/pblperpustakaan/' successfully
+
+14-06-2026T13:15:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_Rudy Ruang Study/a_Login")): Object: 'Object Repository/Page_Rudy Ruang Study/a_Login' is clicked on
+
+14-06-2026T13:15:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rudy Ruang Study/a_Login' is clicked on
+
+14-06-2026T13:15:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan NIM_NIP"), "2407411020"): Text '2407411020' is set on object 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan NIM_NIP'
+
+14-06-2026T13:15:41 - [MESSAGE][PASSED] - Text '2407411020' is set on object 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan NIM_NIP'
+
+14-06-2026T13:15:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan Password")): Object: 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan Password' is clicked on
+
+14-06-2026T13:15:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan Password' is clicked on
+
+14-06-2026T13:15:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan Password"), "EwGL+FYdCDo="): Text ****** has been set on object 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan Password'
+
+14-06-2026T13:15:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan Password'
+
+14-06-2026T13:15:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Masuk - Rudy Ruang Study/button_submit")): Object: 'Object Repository/Page_Masuk - Rudy Ruang Study/button_submit' is clicked on
+
+14-06-2026T13:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Masuk - Rudy Ruang Study/button_submit' is clicked on
+
+14-06-2026T13:15:43 - [TEST_STEP][FAILED] - click(findTestObject("Page_LibRoomPNJ/a_Riwayat")): Unable to click on object 'Object Repository/Page_LibRoomPNJ/a_Riwayat' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_LibRoomPNJ/a_Riwayat'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at FT-001 - Kirim Feedback Puas.run(FT-001 - Kirim Feedback Puas:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_LibRoomPNJ/a_Riwayat' located by 'By.xpath: //*[@href = '?route=User/riwayat']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:111)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1781381274035.run(Script1781381274035.groovy:36)
+	... 13 more
+)
+
+14-06-2026T13:15:53 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_LibRoomPNJ/a_Riwayat' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_LibRoomPNJ/a_Riwayat'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at FT-001 - Kirim Feedback Puas.run(FT-001 - Kirim Feedback Puas:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_LibRoomPNJ/a_Riwayat' located by 'By.xpath: //*[@href = '?route=User/riwayat']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:111)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1781381274035.run(Script1781381274035.groovy:36)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Fajar\\Katalon Studio\\SQA_LibRoomPNJ_Ramadani_Azwar\\Reports\\20260614_131510\\TS-Functional-Testing\\20260614_131510\\1781417753124.png]]]]></system-out>
+         <system-err><![CDATA[14-06-2026T13:15:28 - [TEST_CASE][FAILED] - Test Cases/FT-001 - Kirim Feedback Puas: Test Cases/FT-001 - Kirim Feedback Puas FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_LibRoomPNJ/a_Riwayat'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at FT-001 - Kirim Feedback Puas.run(FT-001 - Kirim Feedback Puas:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_LibRoomPNJ/a_Riwayat' located by 'By.xpath: //*[@href = '?route=User/riwayat']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:111)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FT-002 - Kirim Feedback Tidak Puas" time="18.609" classname="Test Cases/FT-002 - Kirim Feedback Tidak Puas" status="FAILED">
+         <failure type="FAILED" message="Test Cases/FT-002 - Kirim Feedback Tidak Puas FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Feedback - BK-20251214-2243/input_Tidak Puas'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)&#xa;	at FT-002 - Kirim Feedback Tidak Puas.run(FT-002 - Kirim Feedback Tidak Puas:38)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at S0.run(S0.groovy:40)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Feedback - BK-20251214-2243/input_Tidak Puas' located by 'By.xpath: //*[@value = 'Tidak Puas']' not found&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:111)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)&#xa;	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)&#xa;	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 19 more&#xa;"/>
+         <system-out><![CDATA[14-06-2026T13:15:53 - [TEST_CASE][FAILED] - Test Cases/FT-002 - Kirim Feedback Tidak Puas: Test Cases/FT-002 - Kirim Feedback Tidak Puas FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Feedback - BK-20251214-2243/input_Tidak Puas'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at FT-002 - Kirim Feedback Tidak Puas.run(FT-002 - Kirim Feedback Tidak Puas:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Feedback - BK-20251214-2243/input_Tidak Puas' located by 'By.xpath: //*[@value = 'Tidak Puas']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:111)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+
+
+14-06-2026T13:15:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-06-2026T13:15:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-06-2026T13:15:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2026T13:15:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2026T13:15:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-06-2026T13:15:55 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/pblperpustakaan/"): Navigate to 'http://localhost/pblperpustakaan/' successfully
+
+14-06-2026T13:15:56 - [MESSAGE][PASSED] - Navigate to 'http://localhost/pblperpustakaan/' successfully
+
+14-06-2026T13:15:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_Rudy Ruang Study/a_Login")): Object: 'Object Repository/Page_Rudy Ruang Study/a_Login' is clicked on
+
+14-06-2026T13:15:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rudy Ruang Study/a_Login' is clicked on
+
+14-06-2026T13:15:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan NIM_NIP"), "2407411020"): Text '2407411020' is set on object 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan NIM_NIP'
+
+14-06-2026T13:15:57 - [MESSAGE][PASSED] - Text '2407411020' is set on object 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan NIM_NIP'
+
+14-06-2026T13:15:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan Password")): Object: 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan Password' is clicked on
+
+14-06-2026T13:15:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan Password' is clicked on
+
+14-06-2026T13:15:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan Password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan Password'
+
+14-06-2026T13:15:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan Password'
+
+14-06-2026T13:15:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Masuk - Rudy Ruang Study/button_submit")): Object: 'Object Repository/Page_Masuk - Rudy Ruang Study/button_submit' is clicked on
+
+14-06-2026T13:15:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Masuk - Rudy Ruang Study/button_submit' is clicked on
+
+14-06-2026T13:15:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_LibRoomPNJ/a_Riwayat")): Object: 'Object Repository/Page_LibRoomPNJ/a_Riwayat' is clicked on
+
+14-06-2026T13:16:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_LibRoomPNJ/a_Riwayat' is clicked on
+
+14-06-2026T13:16:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_Riwayat Peminjaman Ruangan/a_Beri Feedback")): Object: 'Object Repository/Page_Riwayat Peminjaman Ruangan/a_Beri Feedback' is clicked on
+
+14-06-2026T13:16:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Riwayat Peminjaman Ruangan/a_Beri Feedback' is clicked on
+
+14-06-2026T13:16:02 - [TEST_STEP][FAILED] - click(findTestObject("Page_Feedback - BK-20251214-2243/input_Tidak Puas")): Unable to click on object 'Object Repository/Page_Feedback - BK-20251214-2243/input_Tidak Puas' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Feedback - BK-20251214-2243/input_Tidak Puas'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at FT-002 - Kirim Feedback Tidak Puas.run(FT-002 - Kirim Feedback Tidak Puas:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Feedback - BK-20251214-2243/input_Tidak Puas' located by 'By.xpath: //*[@value = 'Tidak Puas']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:111)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1781416297684.run(Script1781416297684.groovy:38)
+	... 13 more
+)
+
+14-06-2026T13:16:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Feedback - BK-20251214-2243/input_Tidak Puas' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Feedback - BK-20251214-2243/input_Tidak Puas'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at FT-002 - Kirim Feedback Tidak Puas.run(FT-002 - Kirim Feedback Tidak Puas:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Feedback - BK-20251214-2243/input_Tidak Puas' located by 'By.xpath: //*[@value = 'Tidak Puas']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:111)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1781416297684.run(Script1781416297684.groovy:38)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Fajar\\Katalon Studio\\SQA_LibRoomPNJ_Ramadani_Azwar\\Reports\\20260614_131510\\TS-Functional-Testing\\20260614_131510\\1781417772062.png]]]]></system-out>
+         <system-err><![CDATA[14-06-2026T13:15:53 - [TEST_CASE][FAILED] - Test Cases/FT-002 - Kirim Feedback Tidak Puas: Test Cases/FT-002 - Kirim Feedback Tidak Puas FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Feedback - BK-20251214-2243/input_Tidak Puas'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at FT-002 - Kirim Feedback Tidak Puas.run(FT-002 - Kirim Feedback Tidak Puas:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Feedback - BK-20251214-2243/input_Tidak Puas' located by 'By.xpath: //*[@value = 'Tidak Puas']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:111)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FT-003 - Submit Feedback Komentar Kosong" time="9.172" classname="Test Cases/FT-003 - Submit Feedback Komentar Kosong" status="PASSED">
+         <system-out><![CDATA[14-06-2026T13:16:12 - [TEST_CASE][PASSED] - Test Cases/FT-003 - Submit Feedback Komentar Kosong: Test Cases/FT-003 - Submit Feedback Komentar Kosong
+
+14-06-2026T13:16:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-06-2026T13:16:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-06-2026T13:16:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2026T13:16:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2026T13:16:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-06-2026T13:16:14 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/pblperpustakaan/"): Navigate to 'http://localhost/pblperpustakaan/' successfully
+
+14-06-2026T13:16:15 - [MESSAGE][PASSED] - Navigate to 'http://localhost/pblperpustakaan/' successfully
+
+14-06-2026T13:16:15 - [TEST_STEP][PASSED] - click(findTestObject("FT-003 - Submit Feedback Komentar Kosong/Page_Rudy Ruang Study/a_Login")): Object: 'Object Repository/FT-003 - Submit Feedback Komentar Kosong/Page_Rudy Ruang Study/a_Login' is clicked on
+
+14-06-2026T13:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/FT-003 - Submit Feedback Komentar Kosong/Page_Rudy Ruang Study/a_Login' is clicked on
+
+14-06-2026T13:16:15 - [TEST_STEP][PASSED] - setText(findTestObject("FT-003 - Submit Feedback Komentar Kosong/Page_Masuk - Rudy Ruang Study/input_Masukkan NIM_NIP"), "2407411020"): Text '2407411020' is set on object 'Object Repository/FT-003 - Submit Feedback Komentar Kosong/Page_Masuk - Rudy Ruang Study/input_Masukkan NIM_NIP'
+
+14-06-2026T13:16:16 - [MESSAGE][PASSED] - Text '2407411020' is set on object 'Object Repository/FT-003 - Submit Feedback Komentar Kosong/Page_Masuk - Rudy Ruang Study/input_Masukkan NIM_NIP'
+
+14-06-2026T13:16:16 - [TEST_STEP][PASSED] - click(findTestObject("FT-003 - Submit Feedback Komentar Kosong/Page_Masuk - Rudy Ruang Study/input_Masukkan Password")): Object: 'Object Repository/FT-003 - Submit Feedback Komentar Kosong/Page_Masuk - Rudy Ruang Study/input_Masukkan Password' is clicked on
+
+14-06-2026T13:16:17 - [MESSAGE][PASSED] - Object: 'Object Repository/FT-003 - Submit Feedback Komentar Kosong/Page_Masuk - Rudy Ruang Study/input_Masukkan Password' is clicked on
+
+14-06-2026T13:16:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("FT-003 - Submit Feedback Komentar Kosong/Page_Masuk - Rudy Ruang Study/input_Masukkan Password"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/FT-003 - Submit Feedback Komentar Kosong/Page_Masuk - Rudy Ruang Study/input_Masukkan Password'
+
+14-06-2026T13:16:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/FT-003 - Submit Feedback Komentar Kosong/Page_Masuk - Rudy Ruang Study/input_Masukkan Password'
+
+14-06-2026T13:16:17 - [TEST_STEP][PASSED] - click(findTestObject("FT-003 - Submit Feedback Komentar Kosong/Page_Masuk - Rudy Ruang Study/button_submit")): Object: 'Object Repository/FT-003 - Submit Feedback Komentar Kosong/Page_Masuk - Rudy Ruang Study/button_submit' is clicked on
+
+14-06-2026T13:16:18 - [MESSAGE][PASSED] - Object: 'Object Repository/FT-003 - Submit Feedback Komentar Kosong/Page_Masuk - Rudy Ruang Study/button_submit' is clicked on
+
+14-06-2026T13:16:18 - [TEST_STEP][PASSED] - click(findTestObject("FT-003 - Submit Feedback Komentar Kosong/Page_LibRoomPNJ/a_Riwayat")): Object: 'Object Repository/FT-003 - Submit Feedback Komentar Kosong/Page_LibRoomPNJ/a_Riwayat' is clicked on
+
+14-06-2026T13:16:19 - [MESSAGE][PASSED] - Object: 'Object Repository/FT-003 - Submit Feedback Komentar Kosong/Page_LibRoomPNJ/a_Riwayat' is clicked on
+
+14-06-2026T13:16:19 - [TEST_STEP][PASSED] - click(findTestObject("FT-003 - Submit Feedback Komentar Kosong/Page_Riwayat Peminjaman Ruangan/a_Beri Feedback")): Object: 'Object Repository/FT-003 - Submit Feedback Komentar Kosong/Page_Riwayat Peminjaman Ruangan/a_Beri Feedback' is clicked on
+
+14-06-2026T13:16:20 - [MESSAGE][PASSED] - Object: 'Object Repository/FT-003 - Submit Feedback Komentar Kosong/Page_Riwayat Peminjaman Ruangan/a_Beri Feedback' is clicked on
+
+14-06-2026T13:16:20 - [TEST_STEP][PASSED] - click(findTestObject("FT-003 - Submit Feedback Komentar Kosong/Page_Feedback - BK-20251214-1131/button_Simpan")): Object: 'Object Repository/FT-003 - Submit Feedback Komentar Kosong/Page_Feedback - BK-20251214-1131/button_Simpan' is clicked on
+
+14-06-2026T13:16:21 - [MESSAGE][PASSED] - Object: 'Object Repository/FT-003 - Submit Feedback Komentar Kosong/Page_Feedback - BK-20251214-1131/button_Simpan' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FT-008 - Dashboard Admin Tampil Stat Card" time="6.074" classname="Test Cases/FT-008 - Dashboard Admin Tampil Stat Card" status="PASSED">
+         <system-out><![CDATA[14-06-2026T13:16:21 - [TEST_CASE][PASSED] - Test Cases/FT-008 - Dashboard Admin Tampil Stat Card: Test Cases/FT-008 - Dashboard Admin Tampil Stat Card
+
+14-06-2026T13:16:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-06-2026T13:16:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-06-2026T13:16:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2026T13:16:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2026T13:16:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-06-2026T13:16:23 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/pblperpustakaan/"): Navigate to 'http://localhost/pblperpustakaan/' successfully
+
+14-06-2026T13:16:24 - [MESSAGE][PASSED] - Navigate to 'http://localhost/pblperpustakaan/' successfully
+
+14-06-2026T13:16:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_Rudy Ruang Study/div_Selamat Datang di Rudy")): Object: 'Object Repository/Page_Rudy Ruang Study/div_Selamat Datang di Rudy' is clicked on
+
+14-06-2026T13:16:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rudy Ruang Study/div_Selamat Datang di Rudy' is clicked on
+
+14-06-2026T13:16:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_Rudy Ruang Study/a_Login")): Object: 'Object Repository/Page_Rudy Ruang Study/a_Login' is clicked on
+
+14-06-2026T13:16:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rudy Ruang Study/a_Login' is clicked on
+
+14-06-2026T13:16:25 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan NIM_NIP"), "adminrudy1"): Text 'adminrudy1' is set on object 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan NIM_NIP'
+
+14-06-2026T13:16:26 - [MESSAGE][PASSED] - Text 'adminrudy1' is set on object 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan NIM_NIP'
+
+14-06-2026T13:16:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan Password")): Object: 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan Password' is clicked on
+
+14-06-2026T13:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan Password' is clicked on
+
+14-06-2026T13:16:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan Password"), "8SQVv/p9jVSetdAvTyxx2PheOO0VNNcN"): Text ****** has been set on object 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan Password'
+
+14-06-2026T13:16:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan Password'
+
+14-06-2026T13:16:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Masuk - Rudy Ruang Study/button_submit")): Object: 'Object Repository/Page_Masuk - Rudy Ruang Study/button_submit' is clicked on
+
+14-06-2026T13:16:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Masuk - Rudy Ruang Study/button_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FT-010 - Data Pinjam Admin Only" time="8.109" classname="Test Cases/FT-010 - Data Pinjam Admin Only" status="PASSED">
+         <system-out><![CDATA[14-06-2026T13:16:27 - [TEST_CASE][PASSED] - Test Cases/FT-010 - Data Pinjam Admin Only: Test Cases/FT-010 - Data Pinjam Admin Only
+
+14-06-2026T13:16:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-06-2026T13:16:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-06-2026T13:16:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2026T13:16:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2026T13:16:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-06-2026T13:16:30 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/pblperpustakaan/"): Navigate to 'http://localhost/pblperpustakaan/' successfully
+
+14-06-2026T13:16:30 - [MESSAGE][PASSED] - Navigate to 'http://localhost/pblperpustakaan/' successfully
+
+14-06-2026T13:16:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_Rudy Ruang Study/a_Login")): Object: 'Object Repository/Page_Rudy Ruang Study/a_Login' is clicked on
+
+14-06-2026T13:16:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rudy Ruang Study/a_Login' is clicked on
+
+14-06-2026T13:16:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan NIM_NIP"), "adminrudy1"): Text 'adminrudy1' is set on object 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan NIM_NIP'
+
+14-06-2026T13:16:32 - [MESSAGE][PASSED] - Text 'adminrudy1' is set on object 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan NIM_NIP'
+
+14-06-2026T13:16:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan Password")): Object: 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan Password' is clicked on
+
+14-06-2026T13:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan Password' is clicked on
+
+14-06-2026T13:16:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan Password"), "8SQVv/p9jVSetdAvTyxx2PheOO0VNNcN"): Text ****** has been set on object 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan Password'
+
+14-06-2026T13:16:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Masuk - Rudy Ruang Study/input_Masukkan Password'
+
+14-06-2026T13:16:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_Masuk - Rudy Ruang Study/button_submit")): Object: 'Object Repository/Page_Masuk - Rudy Ruang Study/button_submit' is clicked on
+
+14-06-2026T13:16:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Masuk - Rudy Ruang Study/button_submit' is clicked on
+
+14-06-2026T13:16:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dashboard Admin - Rudy/a_Data Pinjam Admin")): Object: 'Object Repository/Page_Dashboard Admin - Rudy/a_Data Pinjam Admin' is clicked on
+
+14-06-2026T13:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard Admin - Rudy/a_Data Pinjam Admin' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-06-2026T13:15:28 - [TEST_SUITE][FAILED] - TS-Functional-Testing: null]]></system-out>
+      <system-err><![CDATA[14-06-2026T13:15:28 - [TEST_SUITE][FAILED] - TS-Functional-Testing: null]]></system-err>
+   </testsuite>
+</testsuites>

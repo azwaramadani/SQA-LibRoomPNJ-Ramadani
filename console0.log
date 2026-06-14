@@ -1,0 +1,335 @@
+2026-06-14 13:15:27.134 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Fajar\.katalon\packages\KS-11.0.1\configuration\org.eclipse.osgi\148\0\.cp\resources\logback\logback-execution.xml
+2026-06-14 13:15:27.138 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Fajar\Katalon Studio\SQA_LibRoomPNJ_Ramadani_Azwar\Include\config\log.properties
+2026-06-14 13:15:28.310 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS-Functional-Testing
+2026-06-14 13:15:28.444 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = RAMADANI AZWAR Mahasiswa PNJ
+2026-06-14 13:15:28.447 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = SQA_LibRoomPNJ_Ramadani_Azwar
+2026-06-14 13:15:28.448 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Fajar - LAPTOP-L5EA407O
+2026-06-14 13:15:28.449 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-06-14 13:15:28.451 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.56.1
+2026-06-14 13:15:28.453 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.1.0
+2026-06-14 13:15:28.767 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-14 13:15:28.768 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FT-001 - Kirim Feedback Puas
+2026-06-14 13:15:29.267 DEBUG testcase.FT-001 - Kirim Feedback Puas    - 1: openBrowser("")
+2026-06-14 13:15:29.648 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-14 13:15:29.749 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2026 1:15:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 14, 2026 1:15:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-06-14 13:15:33.781 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0043cabbf61da0c5b6753ca2551bf747
+2026-06-14 13:15:33.794 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.103
+2026-06-14 13:15:33.804 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-14 13:15:33.810 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-14 13:15:33.850 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-14 13:15:34.148 DEBUG testcase.FT-001 - Kirim Feedback Puas    - 2: openBrowser("")
+2026-06-14 13:15:34.176 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-14 13:15:36.167 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-14 13:15:36.174 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2026 1:15:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 14, 2026 1:15:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-06-14 13:15:37.726 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f6e7f9a11b5b412e99cf2866d3da69d6
+2026-06-14 13:15:37.728 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.103
+2026-06-14 13:15:37.731 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-14 13:15:37.740 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-14 13:15:37.743 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-14 13:15:37.803 DEBUG testcase.FT-001 - Kirim Feedback Puas    - 3: navigateToUrl("http://localhost/pblperpustakaan/")
+2026-06-14 13:15:38.861 DEBUG testcase.FT-001 - Kirim Feedback Puas    - 4: click(findTestObject("Page_Rudy Ruang Study/a_Login"))
+2026-06-14 13:15:40.059 DEBUG testcase.FT-001 - Kirim Feedback Puas    - 5: setText(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan NIM_NIP"), "2407411020")
+2026-06-14 13:15:41.160 DEBUG testcase.FT-001 - Kirim Feedback Puas    - 6: click(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan Password"))
+2026-06-14 13:15:41.665 DEBUG testcase.FT-001 - Kirim Feedback Puas    - 7: setEncryptedText(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan Password"), "EwGL+FYdCDo=")
+2026-06-14 13:15:42.175 DEBUG testcase.FT-001 - Kirim Feedback Puas    - 8: click(findTestObject("Page_Masuk - Rudy Ruang Study/button_submit"))
+2026-06-14 13:15:43.057 DEBUG testcase.FT-001 - Kirim Feedback Puas    - 9: click(findTestObject("Page_LibRoomPNJ/a_Riwayat"))
+2026-06-14 13:15:53.531 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Page_LibRoomPNJ/a_Riwayat' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_LibRoomPNJ/a_Riwayat'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at FT-001 - Kirim Feedback Puas.run(FT-001 - Kirim Feedback Puas:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_LibRoomPNJ/a_Riwayat' located by 'By.xpath: //*[@href = '?route=User/riwayat']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:111)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1781381274035.run(Script1781381274035.groovy:36)
+	... 13 more
+)
+2026-06-14 13:15:53.546 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/FT-001 - Kirim Feedback Puas FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_LibRoomPNJ/a_Riwayat'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at FT-001 - Kirim Feedback Puas.run(FT-001 - Kirim Feedback Puas:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_LibRoomPNJ/a_Riwayat' located by 'By.xpath: //*[@href = '?route=User/riwayat']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:111)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+
+2026-06-14 13:15:53.560 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FT-001 - Kirim Feedback Puas
+2026-06-14 13:15:53.579 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-14 13:15:53.580 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FT-002 - Kirim Feedback Tidak Puas
+2026-06-14 13:15:53.728 DEBUG t.FT-002 - Kirim Feedback Tidak Puas     - 1: openBrowser("")
+2026-06-14 13:15:53.737 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-14 13:15:54.071 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-14 13:15:54.077 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2026 1:15:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 14, 2026 1:15:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-06-14 13:15:55.458 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c20577b43da426511b166df7d5ae40e9
+2026-06-14 13:15:55.461 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.103
+2026-06-14 13:15:55.462 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-14 13:15:55.472 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-14 13:15:55.475 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-14 13:15:55.510 DEBUG t.FT-002 - Kirim Feedback Tidak Puas     - 2: navigateToUrl("http://localhost/pblperpustakaan/")
+2026-06-14 13:15:56.111 DEBUG t.FT-002 - Kirim Feedback Tidak Puas     - 3: click(findTestObject("Page_Rudy Ruang Study/a_Login"))
+2026-06-14 13:15:56.903 DEBUG t.FT-002 - Kirim Feedback Tidak Puas     - 4: setText(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan NIM_NIP"), "2407411020")
+2026-06-14 13:15:57.987 DEBUG t.FT-002 - Kirim Feedback Tidak Puas     - 5: click(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan Password"))
+2026-06-14 13:15:58.469 DEBUG t.FT-002 - Kirim Feedback Tidak Puas     - 6: setEncryptedText(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan Password"), "8SQVv/p9jVScEs4/2CZsLw==")
+2026-06-14 13:15:58.936 DEBUG t.FT-002 - Kirim Feedback Tidak Puas     - 7: click(findTestObject("Page_Masuk - Rudy Ruang Study/button_submit"))
+2026-06-14 13:15:59.807 DEBUG t.FT-002 - Kirim Feedback Tidak Puas     - 8: click(findTestObject("Page_LibRoomPNJ/a_Riwayat"))
+2026-06-14 13:16:00.901 DEBUG t.FT-002 - Kirim Feedback Tidak Puas     - 9: click(findTestObject("Page_Riwayat Peminjaman Ruangan/a_Beri Feedback"))
+2026-06-14 13:16:02.004 DEBUG t.FT-002 - Kirim Feedback Tidak Puas     - 10: click(findTestObject("Page_Feedback - BK-20251214-2243/input_Tidak Puas"))
+2026-06-14 13:16:12.178 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Page_Feedback - BK-20251214-2243/input_Tidak Puas' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Feedback - BK-20251214-2243/input_Tidak Puas'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at FT-002 - Kirim Feedback Tidak Puas.run(FT-002 - Kirim Feedback Tidak Puas:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Feedback - BK-20251214-2243/input_Tidak Puas' located by 'By.xpath: //*[@value = 'Tidak Puas']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:111)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1781416297684.run(Script1781416297684.groovy:38)
+	... 13 more
+)
+2026-06-14 13:16:12.183 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/FT-002 - Kirim Feedback Tidak Puas FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Feedback - BK-20251214-2243/input_Tidak Puas'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at FT-002 - Kirim Feedback Tidak Puas.run(FT-002 - Kirim Feedback Tidak Puas:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Feedback - BK-20251214-2243/input_Tidak Puas' located by 'By.xpath: //*[@value = 'Tidak Puas']' not found
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:193)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:51)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.java:111)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy55.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 19 more
+
+2026-06-14 13:16:12.189 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FT-002 - Kirim Feedback Tidak Puas
+2026-06-14 13:16:12.196 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-14 13:16:12.196 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FT-003 - Submit Feedback Komentar Kosong
+2026-06-14 13:16:12.472 DEBUG FT-003 - Submit Feedback Komentar Kosong - 1: openBrowser("")
+2026-06-14 13:16:12.477 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-14 13:16:12.757 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-14 13:16:12.759 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2026 1:16:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 14, 2026 1:16:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-06-14 13:16:14.240 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4daace46fa18b504fd792702b69c1b86
+2026-06-14 13:16:14.242 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.103
+2026-06-14 13:16:14.243 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-14 13:16:14.246 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-14 13:16:14.251 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-14 13:16:14.290 DEBUG FT-003 - Submit Feedback Komentar Kosong - 2: navigateToUrl("http://localhost/pblperpustakaan/")
+2026-06-14 13:16:15.093 DEBUG FT-003 - Submit Feedback Komentar Kosong - 3: click(findTestObject("FT-003 - Submit Feedback Komentar Kosong/Page_Rudy Ruang Study/a_Login"))
+2026-06-14 13:16:15.801 DEBUG FT-003 - Submit Feedback Komentar Kosong - 4: setText(findTestObject("FT-003 - Submit Feedback Komentar Kosong/Page_Masuk - Rudy Ruang Study/input_Masukkan NIM_NIP"), "2407411020")
+2026-06-14 13:16:16.942 DEBUG FT-003 - Submit Feedback Komentar Kosong - 5: click(findTestObject("FT-003 - Submit Feedback Komentar Kosong/Page_Masuk - Rudy Ruang Study/input_Masukkan Password"))
+2026-06-14 13:16:17.421 DEBUG FT-003 - Submit Feedback Komentar Kosong - 6: setEncryptedText(findTestObject("FT-003 - Submit Feedback Komentar Kosong/Page_Masuk - Rudy Ruang Study/input_Masukkan Password"), "8SQVv/p9jVScEs4/2CZsLw==")
+2026-06-14 13:16:17.905 DEBUG FT-003 - Submit Feedback Komentar Kosong - 7: click(findTestObject("FT-003 - Submit Feedback Komentar Kosong/Page_Masuk - Rudy Ruang Study/button_submit"))
+2026-06-14 13:16:18.882 DEBUG FT-003 - Submit Feedback Komentar Kosong - 8: click(findTestObject("FT-003 - Submit Feedback Komentar Kosong/Page_LibRoomPNJ/a_Riwayat"))
+2026-06-14 13:16:19.747 DEBUG FT-003 - Submit Feedback Komentar Kosong - 9: click(findTestObject("FT-003 - Submit Feedback Komentar Kosong/Page_Riwayat Peminjaman Ruangan/a_Beri Feedback"))
+2026-06-14 13:16:20.727 DEBUG FT-003 - Submit Feedback Komentar Kosong - 10: click(findTestObject("FT-003 - Submit Feedback Komentar Kosong/Page_Feedback - BK-20251214-1131/button_Simpan"))
+2026-06-14 13:16:21.368 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FT-003 - Submit Feedback Komentar Kosong
+2026-06-14 13:16:21.390 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-14 13:16:21.390 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FT-008 - Dashboard Admin Tampil Stat Card
+2026-06-14 13:16:21.478 DEBUG T-008 - Dashboard Admin Tampil Stat Card - 1: openBrowser("")
+2026-06-14 13:16:21.481 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-14 13:16:21.798 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-14 13:16:21.801 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2026 1:16:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 14, 2026 1:16:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-06-14 13:16:23.320 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ed2d1edb0f82c2d5e6dd5e2e42e578e8
+2026-06-14 13:16:23.325 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.103
+2026-06-14 13:16:23.328 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-14 13:16:23.330 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-14 13:16:23.334 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-14 13:16:23.382 DEBUG T-008 - Dashboard Admin Tampil Stat Card - 2: navigateToUrl("http://localhost/pblperpustakaan/")
+2026-06-14 13:16:24.024 DEBUG T-008 - Dashboard Admin Tampil Stat Card - 3: click(findTestObject("Page_Rudy Ruang Study/div_Selamat Datang di Rudy"))
+2026-06-14 13:16:24.510 DEBUG T-008 - Dashboard Admin Tampil Stat Card - 4: click(findTestObject("Page_Rudy Ruang Study/a_Login"))
+2026-06-14 13:16:25.093 DEBUG T-008 - Dashboard Admin Tampil Stat Card - 5: setText(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan NIM_NIP"), "adminrudy1")
+2026-06-14 13:16:26.113 DEBUG T-008 - Dashboard Admin Tampil Stat Card - 6: click(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan Password"))
+2026-06-14 13:16:26.579 DEBUG T-008 - Dashboard Admin Tampil Stat Card - 7: setEncryptedText(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan Password"), "8SQVv/p9jVSetdAvTyxx2PheOO0VNNcN")
+2026-06-14 13:16:27.026 DEBUG T-008 - Dashboard Admin Tampil Stat Card - 8: click(findTestObject("Page_Masuk - Rudy Ruang Study/button_submit"))
+2026-06-14 13:16:27.464 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FT-008 - Dashboard Admin Tampil Stat Card
+2026-06-14 13:16:27.479 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-14 13:16:27.479 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FT-010 - Data Pinjam Admin Only
+2026-06-14 13:16:27.660 DEBUG t.FT-010 - Data Pinjam Admin Only        - 1: openBrowser("")
+2026-06-14 13:16:27.665 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-14 13:16:28.810 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-14 13:16:28.812 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 14, 2026 1:16:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 149
+Jun 14, 2026 1:16:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 149.0.7827.103. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-06-14 13:16:30.072 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ab269b6f8cf0cca88e42b3040f228d10
+2026-06-14 13:16:30.074 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.103
+2026-06-14 13:16:30.076 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-14 13:16:30.079 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-14 13:16:30.081 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-14 13:16:30.120 DEBUG t.FT-010 - Data Pinjam Admin Only        - 2: navigateToUrl("http://localhost/pblperpustakaan/")
+2026-06-14 13:16:30.753 DEBUG t.FT-010 - Data Pinjam Admin Only        - 3: click(findTestObject("Page_Rudy Ruang Study/a_Login"))
+2026-06-14 13:16:31.399 DEBUG t.FT-010 - Data Pinjam Admin Only        - 4: setText(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan NIM_NIP"), "adminrudy1")
+2026-06-14 13:16:32.468 DEBUG t.FT-010 - Data Pinjam Admin Only        - 5: click(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan Password"))
+2026-06-14 13:16:32.946 DEBUG t.FT-010 - Data Pinjam Admin Only        - 6: setEncryptedText(findTestObject("Page_Masuk - Rudy Ruang Study/input_Masukkan Password"), "8SQVv/p9jVSetdAvTyxx2PheOO0VNNcN")
+2026-06-14 13:16:33.400 DEBUG t.FT-010 - Data Pinjam Admin Only        - 7: click(findTestObject("Page_Masuk - Rudy Ruang Study/button_submit"))
+2026-06-14 13:16:34.290 DEBUG t.FT-010 - Data Pinjam Admin Only        - 8: click(findTestObject("Page_Dashboard Admin - Rudy/a_Data Pinjam Admin"))
+2026-06-14 13:16:35.588 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FT-010 - Data Pinjam Admin Only
+2026-06-14 13:16:35.903 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-06-14 13:16:35.903 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS-Functional-Testing
+2026-06-14 13:16:35.903 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
